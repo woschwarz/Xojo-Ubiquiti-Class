@@ -41,6 +41,7 @@ Begin DesktopWindow MainWindow
       Height          =   22
       Hint            =   "Your-UniFi-API-Key"
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   152
       LockBottom      =   False
@@ -75,6 +76,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   20
       LockBottom      =   False
@@ -110,6 +112,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   358
       LockBottom      =   False
@@ -145,6 +148,7 @@ Begin DesktopWindow MainWindow
       Height          =   22
       Hint            =   ""
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   126
       LockBottom      =   False
@@ -179,6 +183,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   20
       LockBottom      =   False
@@ -211,6 +216,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   383
       LockBottom      =   False
@@ -243,6 +249,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   20
       LockBottom      =   False
@@ -282,6 +289,7 @@ Begin DesktopWindow MainWindow
       Height          =   22
       Hint            =   ""
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   152
       LockBottom      =   False
@@ -323,6 +331,7 @@ Begin DesktopWindow MainWindow
       Height          =   22
       Hint            =   ""
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   126
       LockBottom      =   False
@@ -357,6 +366,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   20
       LockBottom      =   False
@@ -389,6 +399,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   383
       LockBottom      =   False
@@ -428,6 +439,7 @@ Begin DesktopWindow MainWindow
       Height          =   22
       Hint            =   ""
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   126
       LockBottom      =   False
@@ -462,6 +474,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   20
       LockBottom      =   False
@@ -494,6 +507,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   383
       LockBottom      =   False
@@ -533,6 +547,7 @@ Begin DesktopWindow MainWindow
       Height          =   22
       Hint            =   ""
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   126
       LockBottom      =   False
@@ -567,6 +582,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   20
       LockBottom      =   False
@@ -599,6 +615,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   383
       LockBottom      =   False
@@ -623,6 +640,7 @@ Begin DesktopWindow MainWindow
       Width           =   96
    End
    Begin DesktopSeparator Separator1
+      Active          =   False
       AllowAutoDeactivate=   True
       AllowTabStop    =   True
       Enabled         =   True
@@ -635,6 +653,7 @@ Begin DesktopWindow MainWindow
       LockLeft        =   True
       LockRight       =   True
       LockTop         =   True
+      PanelIndex      =   0
       Scope           =   0
       TabIndex        =   4
       TabPanelIndex   =   0
@@ -643,6 +662,10 @@ Begin DesktopWindow MainWindow
       Transparent     =   False
       Visible         =   True
       Width           =   566
+      _mIndex         =   0
+      _mInitialParent =   ""
+      _mName          =   ""
+      _mPanelIndex    =   0
    End
    Begin DesktopTextField edtClients
       AllowAutoDeactivate=   True
@@ -660,6 +683,7 @@ Begin DesktopWindow MainWindow
       Height          =   22
       Hint            =   ""
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   126
       LockBottom      =   False
@@ -694,6 +718,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   20
       LockBottom      =   False
@@ -726,6 +751,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   383
       LockBottom      =   False
@@ -768,6 +794,7 @@ Begin DesktopWindow MainWindow
       Height          =   179
       HideSelection   =   True
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   126
       LineHeight      =   0.0
@@ -808,6 +835,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   481
       LockBottom      =   False
@@ -839,6 +867,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   481
       LockBottom      =   False
@@ -870,6 +899,7 @@ Begin DesktopWindow MainWindow
       FontUnit        =   0
       Height          =   20
       Index           =   -2147483648
+      InitialParent   =   ""
       Italic          =   False
       Left            =   481
       LockBottom      =   False
@@ -884,6 +914,38 @@ Begin DesktopWindow MainWindow
       TabStop         =   True
       Tooltip         =   ""
       Top             =   247
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   105
+   End
+   Begin DesktopButton btnStatistics
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Cancel          =   False
+      Caption         =   "Statistic"
+      Default         =   False
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   0.0
+      FontUnit        =   0
+      Height          =   20
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   481
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      MacButtonStyle  =   0
+      Scope           =   0
+      TabIndex        =   25
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Tooltip         =   ""
+      Top             =   105
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1091,6 +1153,13 @@ End
 		  Catch e As JSONException
 		    MessageBox("Parse Error: " + e.Message)
 		  End Try
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events btnStatistics
+	#tag Event
+		Sub Pressed()
+		  StatisticsWindow.Show
 		End Sub
 	#tag EndEvent
 #tag EndEvents

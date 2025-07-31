@@ -1,6 +1,20 @@
 #tag Class
 Protected Class UniFiApiClient
 	#tag Method, Flags = &h0
+		Function GetLatestDeviceStatistics(deviceID as String) As Dictionary
+		  // Reads Latest Device Statistics
+		  SendRequest("/v1/sites/" + siteID + "/devices/" + deviceID + "/statistics/latest")
+		  
+		  If lastStatusCode = 200 Then
+		    
+		    // Return value as a dictonary 
+		    Return ParseJSON(responseData.ToString)
+		    
+		  End If
+		End Function
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
 		Function GetSites() As String
 		  // Get the Site ID from the first available UniFi Controller. 
 		  // Site ID is required for other UniFi Network API calls.
@@ -231,7 +245,7 @@ Protected Class UniFiApiClient
 			Group="Behavior"
 			InitialValue=""
 			Type="String"
-			EditorType=""
+			EditorType="MultiLineEditor"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="ipAddress"
@@ -239,7 +253,7 @@ Protected Class UniFiApiClient
 			Group="Behavior"
 			InitialValue="192.168.1.1"
 			Type="String"
-			EditorType=""
+			EditorType="MultiLineEditor"
 		#tag EndViewProperty
 		#tag ViewProperty
 			Name="lastStatusCode"
@@ -255,7 +269,7 @@ Protected Class UniFiApiClient
 			Group="Behavior"
 			InitialValue=""
 			Type="String"
-			EditorType=""
+			EditorType="MultiLineEditor"
 		#tag EndViewProperty
 	#tag EndViewBehavior
 End Class
